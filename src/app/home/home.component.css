@@ -23,3 +23,19 @@
     text-align: center;
     font-size: larger;
   }
+
+  .service-box{
+    float: left;
+    margin: 25px;
+    height: 300px;
+    width: 300px;
+    box-shadow: 5px 5px 10px ghostwhite;
+    position: relative;
+
+  }
+
+  #service-img,#service-img{
+    height: 100%;
+    width: 100%;
+}
+  

@@ -5,12 +5,10 @@
     </div>
   </div> -->
 
-
-  <div >
-    
-    <div>
+  <div class="service-box">
+    <div >
       <div *ngFor="let slide of slides; index as i;">
-        <img
+        <img id="service-img"
           [src]="slide.src"
           alt="{{slide.title}}"
           class="d-block w-100"
