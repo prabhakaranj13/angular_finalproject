@@ -1,0 +1,27 @@
+<!-- <div class="slider-container">
+  <h2 >TODAY NEWS</h2>
+    <div class="slider">
+      <img *ngFor="let slide of slides" [src]="slide.imageUrl" [alt]="slide.altText" [class.active]="slide.active" />
+    </div>
+  </div> -->
+
+
+  <div >
+    
+    <div>
+      <div *ngFor="let slide of slides; index as i;">
+        <img
+          [src]="slide.src"
+          alt="{{slide.title}}"
+          class="d-block w-100"
+          loading="lazy"
+        />
+       
+          <h3>{{slide.title}}</h3>
+          <p>{{slide.subtitle}}</p>
+        
+      </div>
+    </div>
+    <c-carousel-control [routerLink] caption="Previous" direction="prev"></c-carousel-control>
+    <c-carousel-control [routerLink] caption="Next" direction="next"></c-carousel-control>
+  </div>

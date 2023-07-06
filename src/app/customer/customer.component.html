@@ -1,0 +1,227 @@
+<div style="display: flex;">
+  <div style="padding-right: 50px;">
+<mat-card class="example-card">
+  <mat-card-header>
+   
+    <mat-card-title>prabhakaran</mat-card-title>
+    <mat-card-subtitle>Delhi</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="assets/image/ecommerce.jpg" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <p>
+      The Ecommerce After COVID-19
+Contextual and Programmatic Advertising
+Marketing Automation
+Artificial Intelligence (AI)
+Enhanced Shipping Options
+Mobile Commerce
+Augmented Reality for Product Visualization
+Voice Search Will Take Lead
+Snap and Shop
+Revival of Brick-And-Mortar (B&M) Models
+Subscription Based Models Will Rise
+Chatbots as Personal Assistants
+Blockchain – The New Shift
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>
+</div>
+<div style="padding-right: 50px;">
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title>prabhakaran</mat-card-title>
+    <mat-card-subtitle>chennai</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="assets/image/ChennaiLocalTrain.jpg" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <p>
+      A Chennai local train's windows were broken as clashes erupted between students belonging to two different colleges on Wednesday. The two groups started pelting stones against each other, resulting in the broken windows.
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>
+</div>
+<div style="padding-right: 50px;">
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>Prabhakaran</mat-card-title>
+      <mat-card-subtitle>hydrabad</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="assets/image/hyderabad.jpg" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+      <p>
+        Telangana Today brings you a new web series titled ‘Tales Of Hyderabad’. This series includes the least explored or untold stories of Hyderabad, from its history to the modern world.These tales will definitely be informative and contemporary. Here is a small promo to introduce ‘Tales Of Hyderabad’ to you.
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions>
+  </mat-card>
+  </div>
+</div>
+
+ 
+    <!-- <mat-card-content>
+        <div class="mat-elevation-z8">
+            
+            <table mat-table matSort  [dataSource]="dataSource">
+          
+               (Position Column )
+              <ng-container matColumnDef="code">
+                <th mat-header-cell *matHeaderCellDef> </th>
+                <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+              </ng-container>
+          
+              (Name Column )
+              <ng-container  matColumnDef="name">
+                <th mat-header-cell mat-sort-header *matHeaderCellDef> </th>
+                <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+              </ng-container>
+          
+              Weight Column 
+              <ng-container matColumnDef="creditlimit">
+                <th mat-header-cell *matHeaderCellDef> </th>
+                <td mat-cell *matCellDef="let element"> {{element.Creditlimit}} </td>
+              </ng-container>
+          
+              <ng-container matColumnDef="action">
+                <th mat-header-cell *matHeaderCellDef></th>
+                <td mat-cell *matCellDef="let element">  
+                    <button (click)="updatecustomer(element.id)" mat-raised-button color="primary">Upload</button>
+                    <button (click)="removecustomer(element.id)" mat-raised-button color="accent">Delete</button>
+                </td>
+              </ng-container>
+          
+              <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+              <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+          
+            <mat-paginator [pageSizeOptions]="[5, 10, 20]"
+                           showFirstLastButtons
+                           aria-label="Select page of periodic elements">
+            </mat-paginator>
+          </div>
+    </mat-card-content>
+  </mat-card> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <mat-card>
+    <mat-card-header>
+        <h2>Today News</h2>
+       
+       
+    </mat-card-header>
+    <mat-card-content>
+        <div class="mat-elevation-z8">
+            <button (click)="addcustomer()" mat-raised-button color="primary">Add Customer</button>
+            <table mat-table matSort  [dataSource]="dataSource">
+          
+               (Position Column )
+              <ng-container matColumnDef="code">
+                <th mat-header-cell *matHeaderCellDef> Code </th>
+                <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+              </ng-container>
+          
+              (Name Column )
+              <ng-container  matColumnDef="name">
+                <th mat-header-cell mat-sort-header *matHeaderCellDef> Name </th>
+                <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+              </ng-container>
+          
+              Weight Column 
+              <ng-container matColumnDef="creditlimit">
+                <th mat-header-cell *matHeaderCellDef> Creditlimit </th>
+                <td mat-cell *matCellDef="let element"> {{element.Creditlimit}} </td>
+              </ng-container>
+          
+              <ng-container matColumnDef="action">
+                <th mat-header-cell *matHeaderCellDef> Action </th>
+                <td mat-cell *matCellDef="let element">  
+                    <button (click)="updatecustomer(element.id)" mat-raised-button color="primary">Upload</button>
+                    <button (click)="removecustomer(element.id)" mat-raised-button color="accent">Delete</button>
+                </td>
+              </ng-container>
+          
+              <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+              <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+          
+            <mat-paginator [pageSizeOptions]="[5, 10, 20]"
+                           showFirstLastButtons
+                           aria-label="Select page of periodic elements">
+            </mat-paginator>
+          </div>
+    </mat-card-content>
+  </mat-card> -->
+
+
+
+ <!-- <mat-card>
+  <mat-card-header>
+    <h2>Today News</h2>
+  </mat-card-header>
+  <mat-card-content>
+    <div class="mat-elevation-z8">
+      <button (click)="addcustomer()" mat-raised-button color="primary">Add Customer</button>
+      <div class="card-content">
+        <div class="card-item-container">
+          <div class="card-item" *ngFor="let element of dataSource">
+            <div class="card-item-row">
+              <div class="card-item-label">Code:</div>
+              <div class="card-item-value">{{ element.id }}</div>
+            </div>
+            <div class="card-item-row">
+              <div class="card-item-label">Name:</div>
+              <div class="card-item-value">{{ element.name }}</div>
+            </div>
+            <div class="card-item-row">
+              <div class="card-item-label">Creditlimit:</div>
+              <div class="card-item-value">{{ element.Creditlimit }}</div>
+            </div>
+            <div class="card-item-row">
+              <div class="card-item-label">Action:</div>
+              <div class="card-item-value">
+                <button (click)="updatecustomer(element.id)" mat-raised-button color="primary">Upload</button>
+                <button (click)="removecustomer(element.id)" mat-raised-button color="accent">Delete</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons aria-label="Select page of periodic elements">
+    </mat-paginator>
+  </mat-card-content>
+</mat-card> -->
